@@ -18,5 +18,5 @@ export default function (app: Application) {
       placement: 'end',
       position: 3,
     })
-    .extend(app, 'afrux-top-posters-widget');
+    .extend(app, 'ianm-top-posters-widget');
 }
