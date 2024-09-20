@@ -1,5 +1,5 @@
 {
-    "name": "afrux/top-posters-widget",
+    "name": "ianm/top-posters-widget",
     "description": "Top Posters Widget",
     "keywords": [
         "flarum", "widget", "posters", "forum"
@@ -24,6 +24,9 @@
     },
     "require-dev": {
         "flarum/testing": "^1.0.0"
+    },
+    "conflict": {
+        "afrux/top-posters-widget": "*"
     },
     "authors": [
         {
