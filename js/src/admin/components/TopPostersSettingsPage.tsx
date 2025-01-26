@@ -45,7 +45,8 @@ export default class TopPostersSettingsPage extends ExtensionPage {
                         this.selected(JSON.stringify(selectedGroupIds));
                       }}
                     />
-                    {icon(g.icon() || 'fas fa-user')}{g.namePlural()}
+                    {icon(g.icon() || 'fas fa-user')}
+                    {g.namePlural()}
                   </label>
                 </div>
               ))}

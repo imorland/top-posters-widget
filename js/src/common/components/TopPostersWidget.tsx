@@ -56,12 +56,12 @@ export default class TopPostersWidget extends Widget {
         {users.map((user: User) => (
           <Link href={app.route('user', { username: user.slug() })} className="Afrux-TopPostersWidget-users-item">
             <div className="Afrux-TopPostersWidget-users-item-avatar">{avatar(user)}</div>
-              <div className="Afrux-TopPostersWidget-users-item-content">
-                <div className="Afrux-TopPostersWidget-users-item-name">{user.displayName()}</div>
-                <div className="Afrux-TopPostersWidget-users-item-value">
-                  {icon('fas fa-comment-dots')} {this.monthlyCounts[user.id()]}
-                </div>
+            <div className="Afrux-TopPostersWidget-users-item-content">
+              <div className="Afrux-TopPostersWidget-users-item-name">{user.displayName()}</div>
+              <div className="Afrux-TopPostersWidget-users-item-value">
+                {icon('fas fa-comment-dots')} {this.monthlyCounts[user.id()]}
               </div>
+            </div>
           </Link>
         ))}
       </div>

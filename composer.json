@@ -25,7 +25,7 @@
     "require-dev": {
         "flarum/testing": "^1.0.0"
     },
-    "conflict": {
+    "replace": {
         "afrux/top-posters-widget": "*"
     },
     "authors": [
